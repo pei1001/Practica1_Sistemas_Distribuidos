@@ -1,0 +1,6 @@
+<project name="ChatApp" default="javadoc" basedir=".">
+    <target name="javadoc">
+        <mkdir dir="doc"/>
+        <javadoc sourcepath="src/main/java" destdir="doc"/>
+    </target>
+</project>
